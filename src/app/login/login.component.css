@@ -5,7 +5,7 @@
 }
 
 form {
-    background-color:cornflowerblue;
+    background-color:coral;
     border: 1px solid #ccc;
     padding: 20px;
     width: 400px;
@@ -39,7 +39,7 @@ input[type="password"] {
 button[type="submit"] {
     background-color:rgb(241, 243, 236);
     border: 0;
-    color:cornflowerblue;
+    color:coral;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 10px;
