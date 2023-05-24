@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "surya",
+      "email": "surya@demoapp.com",
+      "status": "active1",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Asif",
+      "email": "Asif@demoapp.com",
+      "status": "active",
+      "password": "asif123"
+    },
+    {
+      "id": "3",
+      "name": "Nithin",
+      "email": "Nithin@demoapp.com",
+      "status": "active",
+      "password": "nithin"
+    },
+    {
+      "id": "4",
+      "name": "adminuser4",
+      "email": "admin@demoapp.com",
+      "status": "active",
+      "password": "demoapp1234"
+    },
+    {
+      "id": "5",
+      "name": "adminuser5",
+      "email": "anu@gmail.com",
+      "status": "active",
+      "password": "adminuser5"
+    },
+    {
+      "id": "6",
+      "name": "ssssss",
+      "email": "aaaaa",
+      "status": " vc",
+      "password": "v c"
+    },
+    {
+      "id": "41",
+      "name": "ghj",
+      "email": "gfhjk",
+      "status": "gfhj",
+      "password": "fghj"
+    },
+    {
+      "id": "fm",
+      "name": "xcvbn",
+      "email": "cvbn",
+      "status": "ghjk",
+      "password": "rtyjk"
+    },
+    {
+      "id": "33",
+      "name": "asdfgh",
+      "email": "asd",
+      "status": "qwert",
+      "password": "wegh"
+    },
+    {
+      "id": "7",
+      "name": "demo",
+      "email": "demo@demo.com",
+      "status": "active",
+      "password": "demodemo"
+    }
+  ]
+}

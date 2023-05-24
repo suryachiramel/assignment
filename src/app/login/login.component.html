@@ -1,0 +1,15 @@
+
+
+	<form class="example-form" [formGroup]="loginForm" (ngSubmit)="proceedlogin()">
+		<h1>Employee Login</h1>
+
+        <label for="username">UserName</label>
+		<input type="text" formControlName="uname" id="username" name="username"><br>
+        <label for="password">Password</label>
+		<input type="text" formControlName="upassword" id="password" name="password"><br>
+		<button type="submit">Login</button>	
+	</form>   
+
+
+
+

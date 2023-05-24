@@ -1,0 +1,40 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 61px;
+    padding-top: 40px;
+    background-color:cornflowerblue;
+    } 
+    .sidebar div {
+    padding: 10px;
+    font-size: medium;
+    display: block;
+    margin-left: 20px;
+    color: aliceblue;
+    border-style: double;
+    }
+    
+    .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+    }
+    table{
+    margin-top: 30px;
+    }
+    th,td{
+        border: 1px solid;
+        width: 250px;
+    }
+    span{
+        margin-left: 700px;
+    }
+    .bt{
+        background-color:yellow;
+        color: black;        
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 1px 1px;   
+    }
+    

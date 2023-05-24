@@ -1,0 +1,26 @@
+
+<div class="sidebar"> 
+    <div><button type="menu" [routerLink]="['/home']">home</button></div>
+    <div><button type="menu" [routerLink]="['/userlist']">users</button></div> 
+    </div>  
+    <div class="body-text">
+ 
+       
+         
+	<form class="example-form" [formGroup]="addForm" (ngSubmit)="detailsadd()">
+		<h1>Add/Edit User</h1><br>
+        
+        <label for="userid">User Id</label>
+		<input type="text" formControlName="uid" [(ngModel)]="Users.id" id="userid" name="userid"><br>
+        <label for="username">User Name</label>
+		<input type="text" formControlName="uname" [(ngModel)]="Users.name" id="username" name="username"><br>
+        <label for="useremail">User Email</label>
+		<input type="text" formControlName="uemail" [(ngModel)]="Users.email" id="useremail" name="useremail"><br>
+        <label for="userstatus">User Status</label>
+		<input type="text" formControlName="ustatus" [(ngModel)]="Users.status" id="userstatus" name="userstatus"><br>	
+        <label for="userpassword">User Password</label>
+		<input type="password" formControlName="upassword" [(ngModel)]="Users.password" id="userpassword" name="userpassword"><br>	
+        <button (click)="cancelsave()">Cancel</button>
+		<button type="submit">Save</button>     
+	</form>
+    </div>
